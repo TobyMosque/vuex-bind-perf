@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": [
+        "src/*"
+      ],
+      "app/*": [
+        "*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "layouts/*": [
+        "src/layouts/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "assets/*": [
+        "src/assets/*"
+      ],
+      "boot/*": [
+        "src/boot/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "models/*": [
+        "src/models/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "@toby.mosque/utils": [
+        "node_modules/@toby.mosque/quasar-app-extension-utils/src/utils.js"
+      ],
+      "vue$": [
+        "node_modules/vue/dist/vue.esm.js"
+      ]
+    }
+  },
+  "exclude": [
+    "dist",
+    ".quasar",
+    "node_modules"
+  ]
+}
